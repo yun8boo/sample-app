@@ -7,7 +7,6 @@ type Props = {
 
 const ProtectedPage = ({children}: Props) => {
   const [session, loading] = useSession()
-  console.log(session.user.id);
   if(loading) return null
 
   if(!loading && !session) {
