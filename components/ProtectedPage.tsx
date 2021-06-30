@@ -5,8 +5,9 @@ type Props = {
   children?: ReactNode
 }
 
-const ProctedPage = ({children}: Props) => {
+const ProtectedPage = ({children}: Props) => {
   const [session, loading] = useSession()
+  console.log(session.user.id);
   if(loading) return null
 
   if(!loading && !session) {
@@ -19,4 +20,4 @@ const ProctedPage = ({children}: Props) => {
   )
 }
 
-export default ProctedPage
+export default ProtectedPage

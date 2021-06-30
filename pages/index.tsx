@@ -1,10 +1,10 @@
-import ProctedPage from '../components/ProctedPage'
+import ProtectedPage from '../components/ProtectedPage'
 
 const IndexPage = () => {
   return (
-    <ProctedPage>
+    <ProtectedPage>
       <p>サインインしてないとみれません</p>
-    </ProctedPage>
+    </ProtectedPage>
   )
 }
 
