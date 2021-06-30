@@ -3,7 +3,7 @@ import ProtectedPage from '../components/ProtectedPage'
 const IndexPage = () => {
   return (
     <ProtectedPage>
-      <p>サインインしてないとみれません</p>
+      <p>🍭🍭🍭🍭🍭🍭</p>
     </ProtectedPage>
   )
 }
